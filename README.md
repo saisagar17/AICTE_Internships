@@ -41,12 +41,17 @@ With the global push toward sustainable transportation, predicting EV adoption t
 ### 📁 Project Structure
 
 ```
-ev-adoption-forecasting/
+AICTE_Internship/
 │
-├── EV_Adoption_Forcasting.ipynb           # Main Jupyter notebook  
-├── Electric_Vehicle_Population_Size_History_By_County_.csv  # Dataset  
-├── README.md                              # Project documentation  
-└── requirements.txt                       # Python dependencies
+├── EV_Adoption_Forcasting.ipynb                             # Main Jupyter notebook
+├── Electric_Vehicle_Population_Size_History_By_County_.csv  # Raw dataset
+├── preprocessed_ev_data.csv                                 # Cleaned & preprocessed data
+├── forecasting_ev_model.pkl                                 # Trained ML model (saved)
+├── RF_Tree.png                                              # Visualization of Random Forest tree
+├── README.md                                                # Project documentation
+├── desktop.ini                                              # System-generated file
+└── requirements.txt                                         # Python dependencies
+
 ```
 ## 📊 Model Performance
 
