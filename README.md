@@ -40,12 +40,11 @@ With the global push toward sustainable transportation, predicting EV adoption t
 
 ## 📁 File Structure
 
-```bash
-📦EV_Adoption_Forecasting
- ┣ 📓 EV_Adoption_Forecasting.ipynb
- ┣ 📓 EV_Adoption_Forecasting_Optimized.ipynb
- ┣ 📁 data/
- ┃ ┗ 📄 ev_data.csv (example data file)
- ┣ 📄 README.md
+ev-adoption-forecasting/
+│
+├── EV_Adoption_Forcasting.ipynb           # Main Jupyter notebook
+├── Electric_Vehicle_Population_Size_History_By_County_.csv  # Dataset
+├── README.md                              # Project documentation
+└── requirements.txt                       # Python dependencies
 
 
