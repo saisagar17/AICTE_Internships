@@ -1,72 +1,135 @@
 # ⚡ EV Adoption Forecasting using Machine Learning
 
-📈 EV Adoption Forecasting
-This project focuses on forecasting the adoption trends of Electric Vehicles (EVs) using historical data and machine learning techniques. The goal is to help understand when and how quickly EVs will dominate the automotive market under different scenarios.
+A machine learning project that forecasts electric vehicle (EV) adoption to help urban planners anticipate infrastructure needs, particularly charging stations.
 
-🚀 Project Overview
-The notebook EV_Adoption_Forcasting.ipynb explores and analyzes EV adoption patterns through:
+## 🚗 Project Overview
 
-Data preprocessing and visualization
+As electric vehicle adoption surges globally, urban planners need accurate forecasting models to anticipate infrastructure requirements. This project builds a regression model to predict future EV adoption based on historical trends, vehicle types, and regional data.
 
-Time series analysis
+## 📊 Dataset
 
-Machine learning models for forecasting
+The project uses electric vehicle registration data from Washington State Department of Licensing (DOL), containing monthly vehicle registration counts separated by county for passenger vehicles and trucks.
 
-Scenario-based predictions
+### Dataset Features:
+- **Date**: Monthly registration counts (2017-01-31 to 2024-02-29)
+- **County**: Geographic region where vehicle owner resides
+- **State**: Geographic region of the country
+- **Vehicle Primary Use**: Passenger (83%) or Truck (17%)
+- **Battery Electric Vehicles (BEVs)**: Count of fully electric vehicles
+- **Plug-In Hybrid Electric Vehicles (PHEVs)**: Count of hybrid electric vehicles
+- **Electric Vehicle (EV) Total**: Sum of BEVs and PHEVs
+- **Non-Electric Vehicle Total**: Count of non-electric vehicles
+- **Total Vehicles**: All registered vehicles in the county
+- **Percent Electric Vehicles**: EV adoption percentage
 
-📊 Key Features
-Exploratory Data Analysis (EDA) of EV adoption trends
+**Data Source**: [Kaggle - Electric Vehicle Population Size 2024](https://www.kaggle.com/datasets/sahirmaharajj/electric-vehicle-population-size-2024)
 
-Time series forecasting using models like ARIMA or Prophet
+## 🛠️ Technologies Used
 
-Forecast accuracy evaluation
+- **Python 3.x**
+- **pandas** - Data manipulation and analysis
+- **numpy** - Numerical computing
+- **matplotlib** - Data visualization
+- **seaborn** - Statistical data visualization
+- **scikit-learn** - Machine learning algorithms
+- **joblib** - Model serialization
 
-Insightful visualizations to communicate predictions
+## 🚀 Installation
 
-🧰 Tech Stack
-Python
+1. Clone the repository:
 
-Jupyter Notebook
-
-Libraries: pandas, matplotlib, seaborn, scikit-learn, statsmodels, Prophet (optional)
-
-🧪 How to Run
-Clone the repo:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/ev-adoption-forecasting.git
+git clone https://github.com/yourusername/ev-adoption-forecasting.git
 cd ev-adoption-forecasting
-Install dependencies:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Open the notebook:
+2. Install required packages:
 
-bash
-Copy
-Edit
+pip install pandas numpy matplotlib seaborn scikit-learn joblib
+
+
+3. Download the dataset:
+   - Place `Electric_Vehicle_Population_Size_History_By_County_.csv` in the project directory
+
+## 📈 Model Features
+
+The forecasting model includes sophisticated feature engineering:
+
+- **Time-based features**: Months since start, seasonal patterns
+- **Lag features**: Previous 1-3 months EV totals
+- **Rolling statistics**: 3-month moving averages
+- **Growth metrics**: Percentage changes and growth slopes
+- **Cumulative metrics**: Total EV adoption over time
+- **Categorical encoding**: County and state information
+
+## 🔧 Usage
+
+1. **Run the Jupyter Notebook**:
+
 jupyter notebook EV_Adoption_Forcasting.ipynb
-📂 File Structure
-bash
-Copy
-Edit
-.
-├── EV_Adoption_Forcasting.ipynb   # Main notebook with all analysis
-├── data/                          # Folder for raw and processed data
-├── README.md                      # Project overview
-└── requirements.txt               # Python dependencies
-⚠️ Note: The notebook name appears to have a typo (Forcasting → Forecasting). You might want to fix that for clarity and professionalism.
 
-📈 Sample Forecast Plot
-Include a screenshot or plot image here if you’d like, showing an example of the forecast output.
 
-✅ Future Improvements
-Incorporate policy and market incentive data
+2. **Or run as Python script**:
+The notebook can be converted to a Python script for automated forecasting.
 
-Use deep learning models (e.g., LSTM) for better accuracy
+## 📊 Model Performance
 
-Deploy as an interactive dashboard (e.g., Streamlit or Dash)
+The Random Forest Regressor model provides:
+- Feature importance analysis
+- Time series validation
+- Multiple evaluation metrics (MAE, MSE, R²)
+- Prediction confidence intervals
+
+## 🎯 Key Features
+
+- **Data Preprocessing**: Handles missing values, date parsing, and feature scaling
+- **Feature Engineering**: Creates lag features, rolling statistics, and growth metrics
+- **Model Training**: Random Forest with hyperparameter tuning
+- **Evaluation**: Comprehensive model performance metrics
+- **Visualization**: Charts showing trends, predictions, and feature importance
+- **Forecasting**: Ability to predict future EV adoption rates
+
+## 📁 Project Structure
+
+ev-adoption-forecasting/
+│
+├── EV_Adoption_Forcasting.ipynb # Main Jupyter notebook
+├── Electric_Vehicle_Population_Size_History_By_County_.csv # Dataset
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
+
+## 🔮 Future Enhancements
+
+- [ ] Integration with real-time data sources
+- [ ] Geographic visualization using mapping libraries
+- [ ] Deep learning models (LSTM, GRU) for time series
+- [ ] API development for real-time predictions
+- [ ] Dashboard creation for stakeholders
+- [ ] Integration with charging station location data
+- [ ] Economic impact analysis
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📧 Contact
+
+Your Name - your.email@example.com
+
+Project Link: [https://github.com/yourusername/ev-adoption-forecasting](https://github.com/yourusername/ev-adoption-forecasting)
+
+## 🙏 Acknowledgments
+
+- Washington State Department of Licensing for providing the dataset
+- Kaggle community for data sharing
+- Open source contributors of the used libraries
+
+---
+
+**Note**: This project is for educational and research purposes. For production use in urban planning, additional validation and domain expert consultation is recommended.
