@@ -48,8 +48,14 @@ ev-adoption-forecasting/
 ├── README.md                              # Project documentation  
 └── requirements.txt                       # Python dependencies
 ```
+📊 Model Performance
+```
+The Random Forest Regressor model provides:
 
-
-
+Feature importance analysis
+Time series validation
+Multiple evaluation metrics (MAE, MSE, R²)
+Prediction confidence intervals
+```
 
 
