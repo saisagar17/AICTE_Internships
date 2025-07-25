@@ -67,4 +67,18 @@ jupyter notebook EV_Adoption_Forcasting.ipynb
 ```
 The notebook can be converted to a Python script for automated forecasting.
 ```
+## 📝 License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Project Link: [https://github.com/yourusername/ev-adoption-forecasting](https://github.com/yourusername/ev-adoption-forecasting)
+
+## 🙏 Acknowledgments
+
+- Washington State Department of Licensing for providing the dataset
+- Kaggle community for data sharing
+- Open source contributors of the used libraries
+
+---
+
+**Note**: This project is for educational and research purposes. For production use in urban planning, additional validation and domain expert consultation is recommended.
