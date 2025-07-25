@@ -56,6 +56,15 @@ The Random Forest Regressor model provides:
 - Multiple evaluation metrics (MAE, MSE, R²)
 - Prediction confidence intervals
 
+## 🔧 Usage
 
+1. **Run the Jupyter Notebook**:
+```
+jupyter notebook EV_Adoption_Forcasting.ipynb
+```
 
+2. **Or run as Python script**:
+```
+The notebook can be converted to a Python script for automated forecasting.
+```
 
