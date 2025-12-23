@@ -1,4 +1,4 @@
-# ⚡ EV Adoption Forecasting using Machine Learning
+# ⚡ Electric Vehicle (EV) Charge Demand Prediction
 
 This repository contains a comprehensive analysis and machine learning model to forecast the adoption rate of Electric Vehicles (EVs) over time. The goal is to use historical data and predictive modeling to provide actionable insights for policymakers, automakers, and clean energy advocates.
 
@@ -46,3 +46,4 @@ With the global push toward sustainable transportation, predicting EV adoption t
  ┣ 📁 data/
  ┃ ┗ 📄 ev_data.csv (example data file)
  ┣ 📄 README.md
+
