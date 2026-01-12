@@ -85,5 +85,17 @@ Project Link: [https://github.com/yourusername/ev-adoption-forecasting](https://
 - Open source contributors of the used libraries
 
 ---
+## OUTPUT:
+<img width="1436" height="441" alt="image" src="https://github.com/user-attachments/assets/e66ba9d0-beec-4068-8c69-30d881b34244" />
+
+Main Dashboard Homepage Overview
+- The homepage features a sleek, modern design with a dark theme background and EV charger imagery.
+- Displays project title: "EV Adoption Forecast Dashboard" with a subtitle highlighting AI-driven sustainable transportation planning.
+- Includes a dropdown to select a county and instantly view forecast results.
+- Brief description provided to explain the dashboard’s purpose in supporting policymakers and planners.
+
+  
+<img width="2039" height="239" alt="image" src="https://github.com/user-attachments/assets/f9dea2c4-b9fb-4391-be10-347e6f1ceea7" />
+
 
 **Note**: This project is for educational and research purposes. For production use in urban planning, additional validation and domain expert consultation is recommended.
