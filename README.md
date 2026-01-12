@@ -94,8 +94,30 @@ Main Dashboard Homepage Overview
 - Includes a dropdown to select a county and instantly view forecast results.
 - Brief description provided to explain the dashboard’s purpose in supporting policymakers and planners.
 
-  
-<img width="2039" height="239" alt="image" src="https://github.com/user-attachments/assets/f9dea2c4-b9fb-4391-be10-347e6f1ceea7" />
+<img width="1436" height="441" alt="image" src="https://github.com/user-attachments/assets/b838a017-58d5-446e-b8a4-a4375dfa8eb8" />
 
+Forecast Output: Cumulative EV Trend (Ada County)
+- The graph displays historical vs. forecasted cumulative EV registrations for Ada County from 2018 to 2027.
+- Orange line represents actual past EV adoption, while the blue line projects the next 3 years using ML predictions.
+- A strong upward trend is visible, indicating an expected increase of 80% in EV adoption over the forecast period.
+- This visualization helps stakeholders make informed decisions about charging infrastructure and policy planning.
+
+<img width="1176" height="171" alt="image" src="https://github.com/user-attachments/assets/77862cc4-61d3-4a3a-97f9-1be09a069ca4" />
+<img width="1176" height="596" alt="image" src="https://github.com/user-attachments/assets/40c99dc1-4410-4ced-a8d5-637b419fc782" />
+
+## Conclusion:  
+
+The project successfully:
+- Forecasted EV trends with high interpretability.
+- Integrated intelligent features like lagged inputs, moving averages, and trend analysis.
+- Created a web-based tool using Streamlit for interactive visual decision-making.
+
+Value to stakeholders:
+- Proactive infrastructure and budget planning
+- Data-backed regional EV adoption insights
+
+Future scope:
+- Integrate real-time EV registration APIs
+- Add predictive insights on charging demand
 
 **Note**: This project is for educational and research purposes. For production use in urban planning, additional validation and domain expert consultation is recommended.
