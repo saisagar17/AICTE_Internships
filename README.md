@@ -1,6 +1,6 @@
 # ⚡ Electric Vehicle (EV) Charge Demand Prediction
 
-AICTE Internship Project
+### AICTE Internship Project
 
 This repository presents a complete data science and machine learning solution to forecast Electric Vehicle (EV) adoption trends over time. The project aims to support policy makers, infrastructure planners, and clean energy stakeholders with data-driven insights.
 
